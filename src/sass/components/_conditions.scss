@@ -1,0 +1,97 @@
+.conditions {
+    & p {
+        font-size: 17px;
+        font-weight: 300;
+        color: #1CA8C3;
+        margin-top: 15px;
+    }
+
+    h2 {
+        font-size: 38px;
+        text-align:center;
+        font-weight: 700;
+        margin: 20px auto;
+        text-transform: uppercase;
+    }
+}
+
+
+
+.first-raw {
+    display: flex;
+    justify-content: space-around;
+
+    & .conditions {
+        max-height: 300px;
+        max-width: 500px;
+
+        & h3 {
+            font-size: 22px;
+            font-weight: 300;
+            color: #1CA8C3;
+        }
+
+        & li {
+            color: #222222;
+        }
+
+        & p {
+            font-size: 17px;
+            font-weight: 300;
+            color: #1CA8C3;
+        }
+    }
+}
+            /*НЕ СМОГ НОРМАЛЬНО ВСТАВИТЬ ЛИСТ СТАЙЛ, ОН ВСТАЛ КРИВО лень найти решение*/
+.conditions ul {
+   
+    list-style: url(../img/bluestyle.svg);
+
+
+}
+
+.second-row {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+    & .requirements {
+        max-height: 300px;
+        max-width: 500px;
+        & ul {
+            list-style: url(../img/redstyle.svg);
+        }
+        & h3 {
+            font-size: 22px;
+            font-weight: 300;
+            color: #FF5656;
+        }
+
+        & li {
+            color: #222222;
+        }
+        
+    }
+
+
+    & .documents {
+        max-height: 300px;
+        max-width: 500px;
+        & ul {
+            list-style: url(../img/redstyle.svg);
+        }
+        & h3 {
+            font-size: 22px;
+            font-weight: 300;
+            color: #FF5656;
+        }
+
+        & li {
+            color: #222222;
+        }
+
+
+    }
+
+    margin-bottom: 50px;
+}
