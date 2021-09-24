@@ -1,0 +1,198 @@
+@media screen and (max-width: 576px) {
+    .navigation {
+        background-color: #212121;
+    
+        & .container {
+            height: 45px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            :nth-child(6) {
+                display: none;
+            }
+            :nth-child(2) {
+                display: none;
+            }
+            :nth-child(3) {
+                display: none;
+            }
+        }
+    
+        & .navigation__items {
+            display: flex;
+            
+        }
+    
+        & .navigation__buttons  a {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 400;
+            color: #FFFFFF;
+
+           
+        }
+    }
+
+    .header {
+        background-position: center;
+        height: (490px);
+        & .order {
+
+            margin-bottom: 20px;
+            & .site  {
+                display: flex;
+                justify-content: space-around;
+                img {
+                    width: 150px;
+                    
+                }
+
+                p{
+                    display: none;
+                } 
+
+            }
+            
+            & .number-button {
+                display: flex;
+                flex-direction: column;
+                p {
+                    display: none;
+                }
+                h4 {
+                    width: 100%;
+                    font-size: (100%);
+                    text-align: center;
+                    
+
+                }
+                .order-button {
+                    width: 150px;
+                    border-radius: 13%;
+                }
+
+            }
+        }
+
+        .first-section {
+            .header__title {
+                h1 {
+                    font-size: 30px;
+                    font-weight: 900;
+                    text-align: center;
+                    
+                }
+                h2 {
+                    font-size: 20px;
+                    margin-right: 30px;
+                    margin-left: 30px;
+                    margin-top: 30px;
+                }
+            }
+        
+            .header__description {
+                p {
+                    display: none;
+                }
+            }
+
+            .header__button {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                border-radius:9%;
+            }
+        }
+        
+        
+
+
+    }
+
+    .advantages {
+        width: 200px;
+        height: 20px;
+        padding-top: 8px;
+    }
+
+    .eight-reasons {
+        .advantages {
+            width: 200px;
+            height: 20px;
+            padding-top: 8px;
+        }
+
+        h3 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .box-pairs {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            & .reason-box {
+                width:100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    margin:25px 0px 10px 10px;
+                    
+                
+                }
+                & .reason-description {
+                    h5 {
+                        margin-top: 10px;
+                        text-align: center;
+                    }
+                    p {
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .mobile-app {
+
+        .mobile-app__header {
+            font-size: 18px;
+            font-weight: 700;
+
+        }
+        .mobile-app__description {
+            margin: 15px auto;
+    
+           
+            font-size: 16px;
+            width: 300px;
+        }
+
+
+        .card-boxes {
+            display: flex;
+            flex-direction: column;
+
+            .first-row {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .second-row {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    }
+
+
+
+
+}
